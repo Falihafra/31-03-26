@@ -1,0 +1,34 @@
+body {
+  background-color: lightgray;
+    font-size: small;
+}
+
+/* Mobile */
+@media only screen and
+(min-width: 600px) {
+    body{
+        background-color: lightblue;
+        font-size: smaller;
+    }
+
+}
+
+/* Tablet */
+@media only screen and 
+(min-width: 768px) {
+    body {
+        background-color: rgb(145, 200, 145);
+        font-size: medium;
+    }
+
+}
+
+/* Desktop */
+@media only screen and
+(min-width: 1024px) {
+    body {
+        background-color: lightpink;
+        font-size: larger;
+    }
+
+}   
